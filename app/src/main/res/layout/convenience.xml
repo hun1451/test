@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/eat_btn"
+        android:layout_width="117dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@android:color/background_dark"
+        android:padding="0dp"
+        android:src="@drawable/eat" />
+
+    <ImageButton
+        android:id="@+id/bath_btn"
+        android:layout_width="117dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@android:color/background_dark"
+        android:padding="0dp"
+        android:src="@drawable/bath" />
+
+    <ImageButton
+        android:id="@+id/shopping_btn"
+        android:layout_width="117dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="-314dp"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="@android:color/background_dark"
+        android:padding="0dp"
+        android:src="@drawable/shopping" />
+
+    <ImageButton
+        android:id="@+id/medical_btn"
+        android:layout_width="117dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="@android:color/background_dark"
+        android:padding="0dp"
+        android:src="@drawable/medical" />
+
+    <ImageButton
+        android:id="@+id/telecom_btn"
+        android:layout_width="117dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="-314dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="@android:color/background_dark"
+        android:padding="0dp"
+        android:src="@drawable/telecom" />
+
+    <ImageButton
+        android:id="@+id/rest_btn"
+        android:layout_width="117dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="@android:color/background_dark"
+        android:padding="0dp"
+        android:src="@drawable/rest" />
+
+
+
+
+</LinearLayout>

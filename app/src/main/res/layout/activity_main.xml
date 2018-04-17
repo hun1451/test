@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_incheon_congestion">
+
+    <TextView
+        android:id="@+id/status1"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="190dp"
+        />
+    <TextView
+        android:id="@+id/status2"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:id="@+id/status3"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="170dp"/>
+    <TextView
+        android:id="@+id/status4"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="190dp"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="30dp"
+        >
+
+
+        <ImageButton
+            android:id="@+id/flight_takeoff_button"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:padding="0dp"
+            android:src="@drawable/flight_takeoff_info"
+            android:text="이륙/착륙"
+
+            />
+
+        <ImageButton
+            android:id="@+id/delay_button"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="120dp"
+            android:padding="0dp"
+            android:src="@drawable/delay_info" />
+
+
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="150dp"
+        >
+
+        <ImageButton
+            android:id="@+id/congestion_button"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:padding="0dp"
+            android:src="@drawable/congestion_info"
+            android:text="세부 혼잡도" />
+
+        <ImageButton
+            android:id="@+id/flight_land_button"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="120dp"
+            android:padding="0dp"
+            android:src="@drawable/flight_land_info" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="270dp"
+        >
+
+        <ImageButton
+            android:id="@+id/parking_button"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:padding="0dp"
+            android:src="@drawable/parking_info" />
+
+        <ImageButton
+            android:id="@+id/convienience_button"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="120dp"
+            android:padding="0dp"
+            android:src="@drawable/convienience_info" />
+
+
+    </FrameLayout>
+
+
+</FrameLayout>
+
+
